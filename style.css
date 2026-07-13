@@ -102,10 +102,9 @@ FRONT
 }
 
 .hero-logo{
-    width:85%;
+    width:90%;
     max-width:420px;
     height:auto;
-    object-fit:contain;
 }
 
 
