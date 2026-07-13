@@ -94,40 +94,20 @@ FRONT
 ==========================*/
 
 .front{
-
     display:flex;
-
-    flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
-
-    text-align:center;
-
     padding:40px;
-
-}
-
-.front{
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:25px;
-    background:white;
-
+    background:#fff;
 }
 
 .hero-logo{
-
-    width:100%;
-    max-width:900px;
+    width:75%;
+    max-width:280px;
     height:auto;
     object-fit:contain;
-    user-select:none;
-    pointer-events:none;
-
+    display:block;
+    margin:auto;
 }
 
 
