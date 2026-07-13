@@ -109,63 +109,27 @@ FRONT
 
 }
 
-.logo{
+.front{
 
-    width:130px;
-
-    margin-bottom:35px;
-
-}
-
-.front h1{
-
-    font-size:34px;
-
-    font-weight:700;
-
-    letter-spacing:2px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+    background:white;
 
 }
 
-.front span{
+.hero-logo{
 
-    font-size:28px;
-
-    margin:12px 0;
-
-    color:#b58a1f;
-
-}
-
-.front p{
-
-    margin-top:25px;
-
-    color:#666;
-
-    font-size:17px;
+    width:100%;
+    max-width:900px;
+    height:auto;
+    object-fit:contain;
+    user-select:none;
+    pointer-events:none;
 
 }
 
-.tap{
-
-    margin-top:55px;
-
-    padding:12px 28px;
-
-    border-radius:50px;
-
-    background:#111;
-
-    color:white;
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    transition:.3s;
-
-}
 
 .tap:hover{
 
