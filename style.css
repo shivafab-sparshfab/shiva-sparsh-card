@@ -125,12 +125,9 @@ FRONT & BACK
 
 .main-logo{
 
-    width:min(65vw,320px);
+    width:55%;
+    max-width:260px;
     height:auto;
-
-    object-fit:contain;
-
-    transition:.4s ease;
 
 }
 
