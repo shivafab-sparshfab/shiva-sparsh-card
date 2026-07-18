@@ -95,19 +95,17 @@ FRONT & BACK
 
 .front{
 
-    background:#fdfdfd;
-
     display:flex;
-
-    flex-direction:column;
 
     justify-content:center;
 
     align-items:center;
 
-    padding:30px;
+    flex-direction:column;
 
-    position:relative;
+    padding:25px;
+
+    background:white;
 
 }
 
@@ -120,15 +118,23 @@ FRONT & BACK
     justify-content:center;
     align-items:center;
 
-    padding:50px;
+    padding:40px;
+
+    background:#fff;
+
+    border-radius:28px;
+
 }
 
 .main-logo{
-
-    width:55%;
-    max-width:260px;
+    width:90%;
+    max-width:380px;
     height:auto;
 
+    object-fit:contain;
+    object-position:center;
+
+    display:block;
 }
 
 .card:hover .main-logo{
