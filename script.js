@@ -3,13 +3,16 @@
 // Premium Digital Business Card
 // =====================================
 
-const card = document.getElementById("card");
+const card=document.getElementById("card");
 
-// Flip Card
-card.addEventListener("click", function (e) {
+card.addEventListener("click",(e)=>{
 
-    // Don't flip if a button or link is clicked
-    if (e.target.closest("a")) return;
+    if(e.target.closest("a")) return;
+
+    window.scrollTo({
+        top:0,
+        behavior:"instant"
+    });
 
     card.classList.toggle("flip");
 
