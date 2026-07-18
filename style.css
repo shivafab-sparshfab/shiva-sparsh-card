@@ -93,29 +93,26 @@ FRONT & BACK
 FRONT
 ==========================*/
 
-/* ===========================
-   FRONT SIDE
-=========================== */
-
 .front{
-
     display:flex;
     justify-content:center;
     align-items:center;
-
-    background:#ffffff;
-
-    padding:0;
-
+    padding:40px;
+    background:#fff;
 }
 
-.front-image{
+.hero-logo{
+    width:90%;
+    max-width:420px;
+    height:auto;
+}
 
-    width:92%;
 
-    height:92%;
+.tap:hover{
 
-    object-fit:contain;
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
 
 }
 
@@ -294,34 +291,5 @@ RESPONSIVE
     grid-template-columns:1fr;
 
 }
-
-}
-.front::after{
-
-    content:"Tap to View Details";
-
-    position:absolute;
-
-    bottom:25px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-    background:rgba(255,255,255,.95);
-
-    color:#555;
-
-    padding:10px 22px;
-
-    border-radius:40px;
-
-    font-size:13px;
-
-    font-weight:500;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-
-    letter-spacing:.5px;
 
 }
