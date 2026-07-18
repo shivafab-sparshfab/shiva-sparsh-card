@@ -89,33 +89,121 @@ FRONT & BACK
 
 }
 
-/*==========================
-FRONT
-==========================*/
+/* ==========================
+   FRONT SIDE
+========================== */
 
 .front{
+
+    background:#fdfdfd;
+
     display:flex;
+
+    flex-direction:column;
+
     justify-content:center;
+
     align-items:center;
-    padding:40px;
+
+    padding:30px;
+
+    position:relative;
+
+}
+
+.front-card{
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:28px;
+
     background:#fff;
-}
 
-.hero-logo{
-    width:90%;
-    max-width:420px;
-    height:auto;
-}
+    border:1px solid rgba(212,175,55,.4);
 
-
-.tap:hover{
-
-    transform:translateY(-3px);
-
-    box-shadow:0 15px 30px rgba(0,0,0,.15);
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.08),
+        inset 0 0 0 1px rgba(255,255,255,.7);
 
 }
 
+.main-logo{
+
+    width:92%;
+    max-width:700px;
+
+    object-fit:contain;
+
+    user-select:none;
+
+    pointer-events:none;
+
+    transition:.5s;
+
+}
+
+.card:hover .main-logo{
+
+    transform:scale(1.02);
+
+}
+
+.flip-text{
+
+    position:absolute;
+
+    bottom:22px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    color:#666;
+
+    text-transform:uppercase;
+
+}
+
+.flip-text svg{
+
+    color:#c89b2d;
+
+}
+
+@media(max-width:480px){
+
+.main-logo{
+
+    width:96%;
+
+}
+
+.flip-text{
+
+    font-size:12px;
+
+    letter-spacing:1px;
+
+}
+
+}
 /*==========================
 BACK
 ==========================*/
