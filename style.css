@@ -117,35 +117,20 @@ FRONT & BACK
     height:100%;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
 
-    border-radius:28px;
-
-    background:#fff;
-
-    border:1px solid rgba(212,175,55,.4);
-
-    box-shadow:
-        0 25px 60px rgba(0,0,0,.08),
-        inset 0 0 0 1px rgba(255,255,255,.7);
-
+    padding:50px;
 }
 
 .main-logo{
 
-    width:92%;
-    max-width:700px;
+    width:min(65vw,320px);
+    height:auto;
 
     object-fit:contain;
 
-    user-select:none;
-
-    pointer-events:none;
-
-    transition:.5s;
+    transition:.4s ease;
 
 }
 
